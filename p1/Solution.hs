@@ -1,3 +1,5 @@
 module Solution where
 
-solution = sum [n | n <- [1..1000-1], mod n 5 == 0 || mod n 3 == 0]
+-- uses list comprehension to produce a list of all positive integers below 1000 that are either a multiple of 3 or 5 and sums 
+-- integers in the list
+solution = sum [n | n <- [1..999], mod n 5 == 0 || mod n 3 == 0]
