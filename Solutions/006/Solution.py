@@ -1,14 +1,8 @@
-sumofsquares = 0
-squareofsum = 0
+if __name__ == "__main__":
+    sumofsquares, sum = 0, 0
+    for i in range(1, 101):
+        sum += i
+        sumofsquares += i*i
+    squareofsum = sum * sum
 
-number = 100
-
-for i in range(1, number+1):
-    squareofsum += i
-    sumofsquares += i*i
-squareofsum *= squareofsum
-print(squareofsum)
-print(sumofsquares)
-
-ans = squareofsum - sumofsquares
-print(ans)
+    print("Ans: " + str(squareofsum - sumofsquares))
