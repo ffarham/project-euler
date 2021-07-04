@@ -16,5 +16,5 @@ if __name__ == '__main__':
     for i in range(len(PN)):
         if PN[i] == True:
             total += i
-    print(total)
+    print("Ans: " + total)
 
