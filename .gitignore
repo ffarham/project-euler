@@ -1,0 +1,6 @@
+#blacklist 
+Solution
+Solution.o
+Solution.class
+Solution.hi
+#whitelist (using !)
